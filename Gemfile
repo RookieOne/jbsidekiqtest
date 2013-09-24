@@ -6,6 +6,9 @@ gem 'rails', '4.0.0'
 
 gem "sidekiq"
 gem "clockwork"
+gem "slim"
+gem 'sinatra', "~> 1.4.3", require: false
+
 gem "foreman"
 gem "unicorn"
 
