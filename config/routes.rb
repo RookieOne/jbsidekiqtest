@@ -1,4 +1,8 @@
+require 'sidekiq/web'
+
 Sidekiqtest::Application.routes.draw do
+  mount Sidekiq::Web, at: "/sidekiq"
+
   resources :starships
   root "starships#index"
 
