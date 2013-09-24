@@ -1,7 +1,7 @@
 require "./config/boot"
 require "./config/environment"
 
-module Clockworker
+module Clockwork
   handler do |job|
     "Running #{job}"
   end
