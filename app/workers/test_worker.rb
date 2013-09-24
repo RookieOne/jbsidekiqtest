@@ -3,9 +3,7 @@ class TestWorker
 
   def perform
     Starship.find_each do |ship|
-      p ship.id
-      # ship.count += 1
-      # ship.save
+      StarshipWorker.perform_async(ship.id)
     end
   end
 
