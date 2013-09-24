@@ -1,57 +1,123 @@
 source 'https://rubygems.org'
 ruby "2.0.0"
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-gem "sidekiq"
-gem "clockwork"
-gem "slim"
-gem 'sinatra', "~> 1.4.3", require: false
+# gem 'bootstrap-sass', "2.1.0.0"
+# gem 'font-awesome-rails'
+gem 'haml', '>= 3.1.4'
+gem 'devise'
+gem "american_date"
+gem "nori"
+gem "faraday"
 
-gem "foreman"
-gem "unicorn"
-
-gem 'analytics-ruby'
 gem "protected_attributes", "~> 1.0.3"
+# gem "activerecord-deprecated_finders", "~> 1.0.3"
+gem "activerecord-session_store", "~> 0.0.1"
 
-# Use sqlite3 as the database for Active Record
-gem 'pg'
+# form
+gem "simple_form", "~> 3.0.0.rc"
+gem "country_select"
+gem "state_select"
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
-
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-
-# Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '~> 4.0.0'
-
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
-
-# Use jquery as the JavaScript library
+# javascript
 gem 'jquery-rails'
 
-# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# server
+gem "heroku", require: false
+gem "unicorn"
+gem "foreman"
+# gem "newrelic_rpm", "3.6.3.111"
+gem 'exceptional'
+gem "rack-timeout"
 
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+# facebook
+gem "omniauth-facebook"
+gem "koala"
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+# twitter
+gem "omniauth-twitter"
+gem "twitter"
+
+# threading
+# gem "celluloid", "0.14.1"
+# gem "sidekiq", "2.12.1"
+gem "celluloid"
+gem "sidekiq"
+gem "slim"
+gem 'sinatra', "~> 1.4.3", require: false
+gem "clockwork"
+
+# validation
+gem "validates_email_format_of"
+
+# analytics
+gem 'analytics-ruby'
+
+gem "cancan"
+gem "RedCloth"
+
+# payment
+gem "stripe"
+gem "paypal_adaptive"
+
+gem "kaminari"
+gem "ransack"
+
+gem "gibbon"
+
+# api
+gem "rabl"
+gem "oj" # speedy json parser
+gem 'rack-cors', :require => 'rack/cors'
+
+gem "browser"
+
+gem "feedzirra"
+gem "time_diff"
+
+# memcache
+gem 'memcachier'
+gem 'dalli'
+
+gem "active_model_serializers"
+gem "dotenv"
+gem "pubnub-ruby", "3.3.0.7", :require => "pubnub"
+gem "json"
+gem "pg"
+
+gem "awesome_print"
+
+# upload image
+gem "filepicker-rails"
+
+group :development do
+  gem 'quiet_assets'
+  # performance
+  # gem "bullet"
+  # gem 'rack-mini-profiler'
 end
 
-# Use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+group :development, :test do
+  gem "pry-rails"
+end
 
-# Use unicorn as the app server
-# gem 'unicorn'
+gem 'uglifier', '>= 1.0.3'
+gem 'asset_sync'
+gem 'sass-rails',   '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'angularjs-rails'
+gem 'compass-rails', github: 'milgner/compass-rails', ref: '1749c06f15dc4b058427e7969810457213647fb8'
 
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
-
-# Use debugger
-# gem 'debugger', group: [:development, :test]
+group :test do
+  gem "rspec"
+  gem "rspec-rails", "2.14.0"
+  gem 'shoulda-matchers'
+  gem "factory_girl_rails", ">= 1.6.0"
+  gem "capybara", "2.1.0"
+  gem "database_cleaner", ">= 0.7.1"
+  gem "email_spec"
+  gem "vcr"
+  gem "webmock"
+  gem "fuubar"
+end
