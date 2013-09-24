@@ -12,6 +12,8 @@ gem 'sinatra', "~> 1.4.3", require: false
 gem "foreman"
 gem "unicorn"
 
+gem 'analytics-ruby'
+
 # Use sqlite3 as the database for Active Record
 gem 'pg'
 
