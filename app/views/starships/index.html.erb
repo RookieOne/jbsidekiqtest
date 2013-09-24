@@ -1,0 +1,9 @@
+
+<table>
+  <%- @starships.each do |starship| %>
+    <tr>
+      <td><%= starship.name %></td>
+      <td><%= starship.count %></td>
+    </tr>
+  <% end %>
+</table>
