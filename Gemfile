@@ -13,6 +13,7 @@ gem "foreman"
 gem "unicorn"
 
 gem 'analytics-ruby'
+gem "protected_attributes", "~> 1.0.3"
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
