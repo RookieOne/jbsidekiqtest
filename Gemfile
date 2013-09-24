@@ -7,6 +7,7 @@ gem 'rails', '4.0.0'
 gem "sidekiq"
 gem "clockwork"
 gem "foreman"
+gem "unicorn"
 
 # Use sqlite3 as the database for Active Record
 gem 'pg'
