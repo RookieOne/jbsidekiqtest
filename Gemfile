@@ -11,7 +11,7 @@ gem "american_date"
 gem "nori"
 gem "faraday"
 
-gem "protected_attributes", "~> 1.0.3"
+# gem "protected_attributes", "~> 1.0.3"
 # gem "activerecord-deprecated_finders", "~> 1.0.3"
 gem "activerecord-session_store", "~> 0.0.1"
 
