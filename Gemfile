@@ -7,13 +7,13 @@ gem 'rails', '4.0.0'
 # gem 'font-awesome-rails'
 gem 'haml', '>= 3.1.4'
 gem 'devise'
-gem "american_date"
-gem "nori"
-gem "faraday"
+# gem "american_date"
+# gem "nori"
+# gem "faraday"
 
 # gem "protected_attributes", "~> 1.0.3"
 # gem "activerecord-deprecated_finders", "~> 1.0.3"
-gem "activerecord-session_store", "~> 0.0.1"
+# gem "activerecord-session_store", "~> 0.0.1"
 
 # form
 gem "simple_form", "~> 3.0.0.rc"
