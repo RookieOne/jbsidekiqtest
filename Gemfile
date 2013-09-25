@@ -5,8 +5,8 @@ gem 'rails', '4.0.0'
 
 # gem 'bootstrap-sass', "2.1.0.0"
 # gem 'font-awesome-rails'
-gem 'haml', '>= 3.1.4'
-gem 'devise'
+# gem 'haml', '>= 3.1.4'
+# gem 'devise'
 # gem "american_date"
 # gem "nori"
 # gem "faraday"
@@ -16,9 +16,9 @@ gem 'devise'
 # gem "activerecord-session_store", "~> 0.0.1"
 
 # form
-gem "simple_form", "~> 3.0.0.rc"
-gem "country_select"
-gem "state_select"
+# gem "simple_form", "~> 3.0.0.rc"
+# gem "country_select"
+# gem "state_select"
 
 # javascript
 gem 'jquery-rails'
