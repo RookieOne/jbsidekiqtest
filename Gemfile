@@ -86,8 +86,6 @@ gem "pubnub-ruby", "3.3.0.7", :require => "pubnub"
 gem "json"
 gem "pg"
 
-gem "awesome_print"
-
 # upload image
 gem "filepicker-rails"
 
@@ -108,15 +106,3 @@ gem 'sass-rails',   '~> 4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'angularjs-rails'
 
-group :test do
-  gem "rspec"
-  gem "rspec-rails", "2.14.0"
-  gem 'shoulda-matchers'
-  gem "factory_girl_rails", ">= 1.6.0"
-  gem "capybara", "2.1.0"
-  gem "database_cleaner", ">= 0.7.1"
-  gem "email_spec"
-  gem "vcr"
-  gem "webmock"
-  gem "fuubar"
-end
