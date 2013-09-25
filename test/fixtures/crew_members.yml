@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  Starship_id: 
+  name: MyString
+  count: 1
+
+two:
+  Starship_id: 
+  name: MyString
+  count: 1
