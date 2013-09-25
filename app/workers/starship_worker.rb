@@ -3,7 +3,7 @@ class StarshipWorker
 
   def perform(id)
     ship = Starship.find(id)
-    ship.count += 1
+    ship.count = 1 + (ship.count || 0)
     ship.save
   end
 
