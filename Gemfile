@@ -80,14 +80,9 @@ gem "time_diff"
 gem 'memcachier'
 gem 'dalli'
 
-gem "active_model_serializers"
 gem "dotenv"
-gem "pubnub-ruby", "3.3.0.7", :require => "pubnub"
 gem "json"
 gem "pg"
-
-# upload image
-gem "filepicker-rails"
 
 group :development do
   gem 'quiet_assets'
