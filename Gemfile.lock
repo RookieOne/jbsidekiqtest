@@ -36,6 +36,7 @@ GEM
     arel (4.0.0)
     atomic (1.1.14)
     bcrypt-ruby (3.1.2)
+    browser (0.2.1)
     builder (3.1.4)
     cancan (1.6.10)
     celluloid (0.15.1)
@@ -126,6 +127,7 @@ GEM
       jwt (~> 0.1.4)
       multi_json (~> 1.0)
       rack (~> 1.2)
+    oj (2.1.4)
     omniauth (1.1.4)
       hashie (>= 1.2, < 3)
       rack
@@ -156,7 +158,11 @@ GEM
       pry (>= 0.9.10)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
+    rabl (0.8.6)
+      activesupport (>= 2.3.14)
     rack (1.5.2)
+    rack-cors (0.2.8)
+      rack
     rack-protection (1.5.0)
       rack
     rack-test (0.6.2)
@@ -255,6 +261,7 @@ DEPENDENCIES
   RedCloth
   analytics-ruby
   angularjs-rails
+  browser
   cancan
   celluloid
   clockwork
@@ -269,12 +276,15 @@ DEPENDENCIES
   jquery-rails
   kaminari
   koala
+  oj
   omniauth-facebook
   omniauth-twitter
   paypal_adaptive
   pg
   pry-rails
   quiet_assets
+  rabl
+  rack-cors
   rack-timeout
   rails (= 4.0.0)
   ransack

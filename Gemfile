@@ -67,11 +67,11 @@ gem "ransack"
 gem "gibbon"
 
 # api
-# gem "rabl"
-# gem "oj" # speedy json parser
-# gem 'rack-cors', :require => 'rack/cors'
+gem "rabl"
+gem "oj" # speedy json parser
+gem 'rack-cors', :require => 'rack/cors'
 
-# gem "browser"
+gem "browser"
 
 # gem "feedzirra"
 # gem "time_diff"
