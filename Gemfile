@@ -27,7 +27,7 @@ gem 'jquery-rails'
 gem "heroku", require: false
 gem "unicorn"
 gem "foreman"
-# gem "newrelic_rpm", "3.6.3.111"
+gem "newrelic_rpm", "3.6.3.111"
 # gem 'exceptional'
 # gem "rack-timeout"
 
