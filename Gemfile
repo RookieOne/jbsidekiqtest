@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.0.0"
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.0'
 
 # gem 'bootstrap-sass', "2.1.0.0"
 # gem 'font-awesome-rails'
@@ -16,7 +16,7 @@ gem 'devise'
 # gem "activerecord-session_store", "~> 0.0.1"
 
 # form
-# gem "simple_form", "~> 3.0.0.rc"
+gem "simple_form", "~> 3.0.0.rc"
 gem "country_select"
 gem "state_select"
 
@@ -97,9 +97,7 @@ end
 
 gem 'uglifier', '>= 1.0.3'
 # gem 'asset_sync'
-# gem 'sass-rails',   '~> 4.0.0'
-# gem 'coffee-rails', '~> 4.0.0'
-gem 'sass-rails'
-gem 'coffee-rails'
+gem 'sass-rails',   '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
 gem 'angularjs-rails'
 
