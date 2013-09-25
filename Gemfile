@@ -28,12 +28,12 @@ gem "heroku", require: false
 gem "unicorn"
 gem "foreman"
 # gem "newrelic_rpm", "3.6.3.111"
-gem 'exceptional'
-gem "rack-timeout"
+# gem 'exceptional'
+# gem "rack-timeout"
 
-# facebook
-gem "omniauth-facebook"
-gem "koala"
+# # facebook
+# gem "omniauth-facebook"
+# gem "koala"
 
 # twitter
 gem "omniauth-twitter"
@@ -48,30 +48,30 @@ gem "slim"
 gem 'sinatra', "~> 1.4.3", require: false
 gem "clockwork"
 
-# validation
-gem "validates_email_format_of"
+# # validation
+# gem "validates_email_format_of"
 
-# analytics
-gem 'analytics-ruby'
+# # analytics
+# gem 'analytics-ruby'
 
-gem "cancan"
-gem "RedCloth"
+# gem "cancan"
+# gem "RedCloth"
 
-# payment
-gem "stripe"
-gem "paypal_adaptive"
+# # payment
+# gem "stripe"
+# gem "paypal_adaptive"
 
-gem "kaminari"
-gem "ransack"
+# gem "kaminari"
+# gem "ransack"
 
-gem "gibbon"
+# gem "gibbon"
 
-# api
-gem "rabl"
-gem "oj" # speedy json parser
-gem 'rack-cors', :require => 'rack/cors'
+# # api
+# gem "rabl"
+# gem "oj" # speedy json parser
+# gem 'rack-cors', :require => 'rack/cors'
 
-gem "browser"
+# gem "browser"
 
 # gem "feedzirra"
 # gem "time_diff"
